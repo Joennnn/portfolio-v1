@@ -1,0 +1,46 @@
+.overlay__background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+  
+.overlay__container {
+    background-color: var(--dark-navy);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 30px;
+    width: 40%;
+    max-width: 600px;
+    height: 50%;
+}
+  
+.overlay__controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.overlay__container .overlay__close {
+    color: var(--blue);
+    border: none;
+    background-color: transparent;
+    font-size: var(--fs-heading);
+    cursor: pointer;
+}
+
+.overlay__container .overlay__close:after {
+    display: inline-block;
+}
+  
+.overlay__container .overlay__close i {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}

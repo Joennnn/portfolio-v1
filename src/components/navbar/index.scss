@@ -1,0 +1,116 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    padding: 0px 50px;
+    width: 95%;
+    height: var(--nav-height);
+    background-color: rgba(10, 25, 47, 0.85);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    color: var(--lightest-gray);
+    font-family: var(--font-mono);
+    counter-reset: item 0;
+    z-index: 12;
+}
+
+.logo {
+    margin-top: 0.5em;
+    fill: var(--blue);
+    stroke: var(--blue);
+    width: 52px;
+    height: 52px;
+
+    &:hover,
+    &:focus {
+      svg {
+        fill: var(--blue-tint);
+        stroke: var(--blue-tint);
+      }
+    }
+  }
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        display: none;
+      }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    ol {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            margin: 0 5px;
+            position: relative;
+            counter-increment: item 1;
+            font-size: var(--fs-xs);
+
+            transition: all 0.3s ease-out;
+
+            a {
+                padding: 10px;
+                text-decoration: none;
+                color: var(--lightest-gray);
+
+                &:before {
+                content: '0' counter(item) '.';
+                margin-right: 5px;
+                color: var(--blue);
+                font-size: var(--fs-xxs);
+                text-align: right;
+                }
+
+                &:hover,
+                &:focus {
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+}
+
+.resume-button {
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-size: var(--fs-xs);
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: var(--blue-tint);
+      outline: none;
+    }
+    &:after {
+      display: none !important;
+    }
+    margin-left: 15px;
+    font-size: var(--fs-xs);
+  }

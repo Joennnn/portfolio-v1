@@ -1,0 +1,50 @@
+.error-text {
+    text-align: center;
+
+    h1 {
+        color: var(--blue);
+        line-height: 1;
+        font-size: clamp(100px, 25vw, 150px);
+        font-family: var(--font-mono);
+        font-weight: 600;
+        margin: 0px 0px 10px;
+    }
+
+    h3 {
+        margin: 0px 0px 10px;
+        font-family: var(--font-family);
+        color: var(--lightest-gray);
+        font-size: clamp(30px, 5vw, 50px);
+        font-weight: 400;
+        line-height: 2;
+        font-weight: 600;
+    }
+
+    button {
+        color: var(--blue);
+        background-color: transparent;
+        border: 1px solid var(--blue);
+        border-radius: var(--border-radius);
+        padding: 1.25rem 1.75rem;
+        font-size: var(--fz-sm);
+        font-family: var(--font-mono);
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: var(--transition);
+        margin-top: 40px;
+
+        &:hover {
+            background-color: var(--blue-tint);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            text-decoration-skip-ink: auto;
+            position: relative;
+            color: var(--blue);
+            font-size: var(--fs-sm);
+        }
+    }
+}
