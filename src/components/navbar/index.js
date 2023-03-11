@@ -16,28 +16,28 @@ const Navbar = () => {
                     <IconLogo />
                 </Link>
 
-                    <nav>
-                        <ol>
-                            <li>
-                                <NavLink exact="true" to="/">
-                                    Home
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink exact="true" className="about-link" to="/about">
-                                    About
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink exact="true" className="project-link" to="/project">
-                                    Projects
-                                </NavLink>
-                            </li>
-                        </ol>
-                        <div>{ ResumeLink }</div>
-                    </nav>
-                </div>
+                <nav>
+                    <ol>
+                        <li>
+                            <NavLink exact="true" to="/">
+                                Home
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact="true" className="about-link" to="/about">
+                                About
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact="true" className="project-link" to="/project">
+                                Projects
+                            </NavLink>
+                        </li>
+                    </ol>
+                    <div>{ ResumeLink }</div>
+                </nav>
             </div>
+        </div>
   )
 }
 

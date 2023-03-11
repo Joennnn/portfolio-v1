@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-v1/static/css/main.491ab54d.css",
+    "main.js": "/portfolio-v1/static/js/main.791769b3.js",
+    "static/media/fyp_website.png": "/portfolio-v1/static/media/fyp_website.dc3d48c8d6c7574a67f6.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-v1/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/isit307_a2.jpg": "/portfolio-v1/static/media/isit307_a2.e97102d5ec712dc61ef3.jpg",
+    "static/media/fontawesome-webfont.eot": "/portfolio-v1/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-v1/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/csci262_a3.png": "/portfolio-v1/static/media/csci262_a3.577343dfc21d3ae84a88.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-v1/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-v1/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/csci262_a1.png": "/portfolio-v1/static/media/csci262_a1.9c6170b29d00f8446828.png",
+    "static/media/csci301_A1.png": "/portfolio-v1/static/media/csci301_A1.4b301fafa240276f7be8.png",
+    "static/media/csci369_A_Q4.png": "/portfolio-v1/static/media/csci369_A_Q4.ce7d4c7cbafc04e4c1e1.png",
+    "static/media/csci301_A2.png": "/portfolio-v1/static/media/csci301_A2.7083567ff6fc720e74cc.png",
+    "static/media/isit307_a1.jpg": "/portfolio-v1/static/media/isit307_a1.2f25fcce83379e8334bf.jpg",
+    "static/media/rockpapersissors.png": "/portfolio-v1/static/media/rockpapersissors.2e9b875ef49ad306579a.png",
+    "index.html": "/portfolio-v1/index.html",
+    "main.491ab54d.css.map": "/portfolio-v1/static/css/main.491ab54d.css.map",
+    "main.791769b3.js.map": "/portfolio-v1/static/js/main.791769b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491ab54d.css",
+    "static/js/main.791769b3.js"
+  ]
+}
