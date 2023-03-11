@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://joennnn.github.io/portfolio-v1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "webpack serve --mode development --content-base docs/ --open",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
@@ -49,7 +49,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "webpack-cli": "^5.0.1"
+    "gh-pages": "^5.0.0"
   }
 }
