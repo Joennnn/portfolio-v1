@@ -2,21 +2,23 @@ import { Link, NavLink } from 'react-router-dom';
 import React from 'react';
 import './index.scss';
 import { IconLogo } from "../../assets/icons";
+import { Menu } from '../index';
 
 const Navbar = () => {
     const ResumeLink = (
-        <a className="resume-button" href="https://drive.google.com/file/d/1Yw3laRhcLf7uO-4HvtMI3J9V7uOfUYWl/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a className="resume-button" href="https://drive.google.com/file/d/1NI_z6h2Ntsh6SN6kppB5x1qox56w8HGC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       );
     return (
+        <>
         <div className='navbar-container'>
             <div className='navbar'>
                 <Link className="logo" to="/">
                     <IconLogo />
                 </Link>
 
-                <nav>
+                <nav className='navbar-links'>
                     <ol>
                         <li>
                             <NavLink exact="true" to="/">
@@ -37,7 +39,9 @@ const Navbar = () => {
                     <div>{ ResumeLink }</div>
                 </nav>
             </div>
+            <Menu />
         </div>
+        </>
   )
 }
 

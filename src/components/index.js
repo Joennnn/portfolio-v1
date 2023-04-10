@@ -5,3 +5,4 @@ export { default as Navbar } from './navbar';
 export { default as Sides } from './sides';
 export { default as Project } from './project';
 export { default as ErrorPage } from './404Page';
+export { default as Menu } from './menu';
