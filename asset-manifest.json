@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v1/static/css/main.491ab54d.css",
-    "main.js": "/portfolio-v1/static/js/main.791769b3.js",
+    "main.css": "/portfolio-v1/static/css/main.7d887fef.css",
+    "main.js": "/portfolio-v1/static/js/main.95a4b459.js",
     "static/media/fyp_website.png": "/portfolio-v1/static/media/fyp_website.dc3d48c8d6c7574a67f6.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-v1/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/isit307_a2.jpg": "/portfolio-v1/static/media/isit307_a2.e97102d5ec712dc61ef3.jpg",
@@ -17,11 +17,11 @@
     "static/media/isit307_a1.jpg": "/portfolio-v1/static/media/isit307_a1.2f25fcce83379e8334bf.jpg",
     "static/media/rockpapersissors.png": "/portfolio-v1/static/media/rockpapersissors.2e9b875ef49ad306579a.png",
     "index.html": "/portfolio-v1/index.html",
-    "main.491ab54d.css.map": "/portfolio-v1/static/css/main.491ab54d.css.map",
-    "main.791769b3.js.map": "/portfolio-v1/static/js/main.791769b3.js.map"
+    "main.7d887fef.css.map": "/portfolio-v1/static/css/main.7d887fef.css.map",
+    "main.95a4b459.js.map": "/portfolio-v1/static/js/main.95a4b459.js.map"
   },
   "entrypoints": [
-    "static/css/main.491ab54d.css",
-    "static/js/main.791769b3.js"
+    "static/css/main.7d887fef.css",
+    "static/js/main.95a4b459.js"
   ]
 }
