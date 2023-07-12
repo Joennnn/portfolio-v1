@@ -6,7 +6,7 @@ import { Menu } from '../index';
 
 const Navbar = () => {
     const ResumeLink = (
-        <a className="resume-button" href="https://drive.google.com/file/d/1NI_z6h2Ntsh6SN6kppB5x1qox56w8HGC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a className="resume-button" href="https://drive.google.com/file/d/1-r0w4zj0xEaZVpX8sYpporBKjTWVwrgd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       );
